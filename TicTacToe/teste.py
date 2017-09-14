@@ -5,5 +5,7 @@ def celsius_to_fahrenheit(temperature):
 
 
 temperatures = [10,-20,-289,100]
-for temperature in temperatures:
-    print(celsius_to_fahrenheit(temperature))
+with open('temperatures.txt', 'w') as f:
+    for t in temperatures:
+        if t >= -273.15:
+            f.write(str(celsius_to_fahrenheit(t)) + '\n')
