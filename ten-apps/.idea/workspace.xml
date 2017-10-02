@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ef199c-6801-4cbd-9fbd-3259204acafc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/02-webmap/app.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/01-pandas-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01-pandas.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/dictionary/app1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/dictionary/data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/dictionary/solution.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,13 +14,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/02-webmap/app.py">
+        <entry file="file://$PROJECT_DIR$/apps/04-web/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,14 +43,17 @@
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/exercices/pandas/app.py" />
         <option value="$PROJECT_DIR$/apps/02-webmap/app.py" />
+        <option value="$PROJECT_DIR$/apps/03-blocker/hosts" />
+        <option value="$PROJECT_DIR$/apps/03-blocker/app.py" />
+        <option value="$PROJECT_DIR$/apps/04-web/app.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2181" />
-    <option name="y" value="27" />
-    <option name="width" value="1430" />
-    <option name="height" value="789" />
+    <option name="x" value="2118" />
+    <option name="y" value="217" />
+    <option name="width" value="990" />
+    <option name="height" value="549" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -92,21 +87,14 @@
               <item name="ten-apps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ten-apps" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="02-webmap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ten-apps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ten-apps" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="02-webmap" type="462c0819:PsiDirectoryNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="04-web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,16 +146,16 @@
   <component name="ToolWindowManager">
     <frame x="1920" y="27" width="1360" height="741" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25381097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24618903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4657236" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4645799" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2800659" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28171334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -182,40 +170,49 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/02-webmap/app.py">
+    <entry file="file://$PROJECT_DIR$/apps/dictionary/app1.py" />
+    <entry file="file://$PROJECT_DIR$/apps/dictionary/app1.py" />
+    <entry file="file://$PROJECT_DIR$/apps/dictionary/app1.py" />
+    <entry file="file://$PROJECT_DIR$/exercices/file3.txt" />
+    <entry file="file://$PROJECT_DIR$/exercices/file2.txt" />
+    <entry file="file://$PROJECT_DIR$/exercices/file1.txt" />
+    <entry file="file://$PROJECT_DIR$/exercices/2017-09-14-17-27-05-275350.txt" />
+    <entry file="file://$PROJECT_DIR$/exercices/2017-09-14-17-27-43-217931.txt" />
+    <entry file="file://$PROJECT_DIR$/exercices/2017-09-14-17-30-13-874609.txt" />
+    <entry file="file://$PROJECT_DIR$/exercices/ex6.py" />
+    <entry file="file://$PROJECT_DIR$/exercices/firsts.py" />
+    <entry file="file://$PROJECT_DIR$/exercices/ex6/2017-09-14-17-31-48-815413.txt" />
+    <entry file="file://$PROJECT_DIR$/exercices/ex6/ex6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/02-webmap/app.py">
+    <entry file="file://$PROJECT_DIR$/exercices/ex6/2017-09-14-17-32-12-291343.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/02-webmap/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/dictionary/data.json" />
+    <entry file="file://$PROJECT_DIR$/apps/dictionary/solution.py" />
+    <entry file="file://$PROJECT_DIR$/exercices/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/exercices/pandas/app.py" />
+    <entry file="file://$PROJECT_DIR$/apps/dictionary/app1.py" />
+    <entry file="file://$PROJECT_DIR$/apps/02-webmap/Volcanoes.txt" />
+    <entry file="file://$PROJECT_DIR$/apps/02-webmap/solution/app2-web-map.py" />
+    <entry file="file://$PROJECT_DIR$/apps/02-webmap/app.py" />
+    <entry file="file://$PROJECT_DIR$/apps/02-webmap/app.py" />
+    <entry file="file://$PROJECT_DIR$/apps/02-webmap/app.py" />
+    <entry file="file://$PROJECT_DIR$/apps/02-webmap/app.py" />
     <entry file="file://$PROJECT_DIR$/apps/dictionary/app1.py" />
     <entry file="file://$PROJECT_DIR$/apps/dictionary/app1.py" />
     <entry file="file://$PROJECT_DIR$/apps/dictionary/app1.py" />
@@ -248,28 +245,32 @@
     <entry file="file://$PROJECT_DIR$/exercices/__init__.py" />
     <entry file="file://$PROJECT_DIR$/exercices/pandas/app.py" />
     <entry file="file://$PROJECT_DIR$/apps/dictionary/app1.py" />
-    <entry file="file://$PROJECT_DIR$/apps/02-webmap/Volcanoes.txt">
+    <entry file="file://$PROJECT_DIR$/apps/02-webmap/Volcanoes.txt" />
+    <entry file="file://$PROJECT_DIR$/apps/02-webmap/solution/app2-web-map.py" />
+    <entry file="file://$PROJECT_DIR$/apps/02-webmap/app.py" />
+    <entry file="file://$PROJECT_DIR$/apps/03-blocker/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="48" />
+        <state relative-caret-position="504">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/02-webmap/solution/app2-web-map.py">
+    <entry file="file://$PROJECT_DIR$/apps/03-blocker/hosts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/02-webmap/app.py">
+    <entry file="file://$PROJECT_DIR$/apps/04-web/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
