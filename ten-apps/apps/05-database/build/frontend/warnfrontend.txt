@@ -1,0 +1,14 @@
+missing module named org - imported by pickle, /media/rafael/DATA/dev/workspace/python-learning/ten-apps/apps/05-database/frontend.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, /media/rafael/DATA/dev/workspace/python-learning/ten-apps/apps/05-database/frontend.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, /media/rafael/DATA/dev/workspace/python-learning/ten-apps/apps/05-database/frontend.py
+missing module named _winreg - imported by platform, /media/rafael/DATA/dev/workspace/python-learning/ten-apps/apps/05-database/frontend.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, /media/rafael/DATA/dev/workspace/python-learning/ten-apps/apps/05-database/frontend.py
+missing module named 'java.lang' - imported by platform, /media/rafael/DATA/dev/workspace/python-learning/ten-apps/apps/05-database/frontend.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, /media/rafael/DATA/dev/workspace/python-learning/ten-apps/apps/05-database/frontend.py
+missing module named winreg - imported by platform, mimetypes, /media/rafael/DATA/dev/workspace/python-learning/ten-apps/apps/05-database/frontend.py, urllib.request
+missing module named nt - imported by os, shutil, ntpath, /media/rafael/DATA/dev/workspace/python-learning/ten-apps/apps/05-database/frontend.py
+missing module named msvcrt - imported by subprocess, /media/rafael/DATA/dev/workspace/python-learning/ten-apps/apps/05-database/frontend.py, getpass
+missing module named _winapi - imported by subprocess, /media/rafael/DATA/dev/workspace/python-learning/ten-apps/apps/05-database/frontend.py
+missing module named _dummy_threading - imported by dummy_threading, /media/rafael/DATA/dev/workspace/python-learning/ten-apps/apps/05-database/frontend.py
+missing module named 'org.python' - imported by copy, /media/rafael/DATA/dev/workspace/python-learning/ten-apps/apps/05-database/frontend.py, xml.sax
