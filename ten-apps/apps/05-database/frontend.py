@@ -11,7 +11,10 @@ Delete
 Close
 """
 from tkinter import *
-import backend
+from backend import Database
+
+
+database = Database()
 
 
 def get_selected_row(event=None):
@@ -31,29 +34,29 @@ def get_selected_row(event=None):
 
 def view_command():
     list1.delete(0, END)
-    for row in backend.view():
+    for row in database.view():
         list1.insert(END, row)
 
 
 def search_command():
     list1.delete(0, END)
-    for row in backend.search(title_text.get(), author_text.get(), year_text.get(), isbn_text.get()):
+    for row in database.search(title_text.get(), author_text.get(), year_text.get(), isbn_text.get()):
         list1.insert(END, row)
 
 
 def add_command():
-    backend.insert(title_text.get(), author_text.get(), year_text.get(), isbn_text.get())
+    database.insert(title_text.get(), author_text.get(), year_text.get(), isbn_text.get())
     view_command()
 
 
 def delete_command():
-    backend.delete(get_selected_row()[0])
+    database.delete(get_selected_row()[0])
     view_command()
 
 
 def update_command():
     selected = get_selected_row()
-    backend.update(selected[0], title_text.get(), author_text.get(), year_text.get(), isbn_text.get())
+    database.update(selected[0], title_text.get(), author_text.get(), year_text.get(), isbn_text.get())
     view_command()
 
 
