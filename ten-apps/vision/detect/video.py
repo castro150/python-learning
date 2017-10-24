@@ -1,8 +1,12 @@
 import cv2
+import skvideo.io as skv
 
 # o parametro é um número para os índices das webcams, se tiver mais
 # de uma, ou pode ser o nove de um arquivo de vídeo (.mp4 por ex)
-video = cv2.VideoCapture(index=0)
+# video = cv2.VideoCapture(index=0)
+teste = skv.vread('face.mp4')
+cv2.VideoCapture(filename='face.mp4').open()
+video = cv2.VideoCapture('face.mp4')
 
 frames_qnt = 0
 while True:
